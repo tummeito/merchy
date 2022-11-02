@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/merchy/static/js/main.4b270df3.js",
+    "main.js": "/merchy/static/js/main.03e70a4b.js",
     "static/media/commerce.png": "/merchy/static/media/commerce.457bea4f142b5443dec4.png",
     "index.html": "/merchy/index.html",
-    "main.4b270df3.js.map": "/merchy/static/js/main.4b270df3.js.map"
+    "main.03e70a4b.js.map": "/merchy/static/js/main.03e70a4b.js.map"
   },
   "entrypoints": [
-    "static/js/main.4b270df3.js"
+    "static/js/main.03e70a4b.js"
   ]
 }
