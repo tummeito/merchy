@@ -10,11 +10,11 @@ const Navbar = () => {
     const classes = useStyles();
   return (
         <>
-            <AppBar position="fixed" classNAme={mergeClasses.appBar} color="inherit">
+            <AppBar position="fixed" className={mergeClasses.appBar} color="inherit">
                 <Toolbar>
                     <Typography variant="h6" className={classes.title} color="inherit">
                         <img src={logo} alt="Commerce.js" height="25px" className={CallMissedSharp.image} />
-                        Commerce.js
+                        Merchy
                     </Typography>
                     <div className={classes.grow} />
                     <div className={classes.button}>
