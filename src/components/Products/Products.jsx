@@ -9,15 +9,18 @@ import useStyles from './styles';
 //    { id: 2, name: 'Macbook', description: 'Apple macbook.', price: '$10', image: 'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp-spacegray-select-202206?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1664497359481' }
 //];
 
-const Products = ({ products }) => {
+const Products = ({ products, onAddToCart }) => {
     const classes = useStyles();
+
+    if (!products.length) return <p>Loading...</p>;
+    
     return (
         <main className={classes.content}>
             <div className={classes.toolbar} />
             <Grid container justify="center" spacing={4}>
                 {products.map((product) => (
                     <Grid item key={product.id} xs={12} sm={6} md={3} lg={3}>
-                        <Product product={product} />
+                        <Product product={product} onAddToCart={onAddToCart} />
                     </Grid>   
                 ))}
             </Grid>
