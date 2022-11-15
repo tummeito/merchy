@@ -1,11 +1,21 @@
 {
   "files": {
-    "main.js": "/merchy/static/js/main.03e70a4b.js",
-    "static/media/commerce.png": "/merchy/static/media/commerce.457bea4f142b5443dec4.png",
+    "main.js": "/merchy/static/js/main.04c60527.chunk.js",
+    "main.js.map": "/merchy/static/js/main.04c60527.chunk.js.map",
+    "runtime-main.js": "/merchy/static/js/runtime-main.1e59c262.js",
+    "runtime-main.js.map": "/merchy/static/js/runtime-main.1e59c262.js.map",
+    "static/js/2.3eb61dc9.chunk.js": "/merchy/static/js/2.3eb61dc9.chunk.js",
+    "static/js/2.3eb61dc9.chunk.js.map": "/merchy/static/js/2.3eb61dc9.chunk.js.map",
     "index.html": "/merchy/index.html",
-    "main.03e70a4b.js.map": "/merchy/static/js/main.03e70a4b.js.map"
+    "precache-manifest.7fc0070de656d18d308658c985b05005.js": "/merchy/precache-manifest.7fc0070de656d18d308658c985b05005.js",
+    "service-worker.js": "/merchy/service-worker.js",
+    "static/js/2.3eb61dc9.chunk.js.LICENSE.txt": "/merchy/static/js/2.3eb61dc9.chunk.js.LICENSE.txt",
+    "static/js/main.04c60527.chunk.js.LICENSE.txt": "/merchy/static/js/main.04c60527.chunk.js.LICENSE.txt",
+    "static/media/commerce.png": "/merchy/static/media/commerce.422fec10.png"
   },
   "entrypoints": [
-    "static/js/main.03e70a4b.js"
+    "static/js/runtime-main.1e59c262.js",
+    "static/js/2.3eb61dc9.chunk.js",
+    "static/js/main.04c60527.chunk.js"
   ]
 }
